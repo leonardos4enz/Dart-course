@@ -3,7 +3,7 @@ void main(List<String> args) {
   dynamic b = 5;
   double decimal = 3.14, $b = 40;
   int _a = 30, entero = 10;
-  print(_a + $b);
+  // print(_a + $b);
   /*
 
   El null safety esta al tanto de no usar variables no definidas
@@ -17,7 +17,7 @@ void main(List<String> args) {
 
   */
 
-  // Strings ======================================================================================================================
+  // ====================================================================================================================== Strings
   var nombre1 = 'Tony';
   String nombre2 = 'Stark';
   String nombre3 = '0\'Connor';
@@ -29,9 +29,15 @@ void main(List<String> args) {
   ''';
   //print(multilinea);
 
-  // Booleans ======================================================================================================================
+  // ====================================================================================================================== Booleans
   bool? isActive = true;
   bool isNotActive = !isActive;
-  print(isActive);
-  print(isNotActive);
+  // print(isActive);
+  // print(isNotActive);
+
+  // ====================================================================================================================== Lists
+  var villanos = ['Ultron', 'Thanos', 2]; //Lista de Objetos
+  List<String> villanos2 = ['Ultron', 'Thanos']; //Lista de Strings
+  // print(villanos);
+  // print(villanos2);
 }
