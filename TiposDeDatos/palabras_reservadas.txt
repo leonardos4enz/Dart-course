@@ -9,3 +9,73 @@ catch external in super with
 class extends is switch yield
 const factory library sync* yield* 
 required late
+
+
+abstract: Palabra clave que se utiliza para declarar una clase abstracta, que no se puede instanciar directamente.
+as: Palabra clave utilizada para convertir un objeto a un tipo de datos específico en tiempo de compilación.
+assert: Palabra clave utilizada para insertar una declaración de aserción en el código, que arrojará una excepción si la expresión booleana es falsa.
+async: Palabra clave que se utiliza para indicar que un método o función puede ejecutarse de forma asincrónica.
+await: Palabra clave que se utiliza dentro de una función async para indicar que se debe esperar a que se complete una operación asíncrona antes de continuar con la ejecución.
+break: Palabra clave que se utiliza para salir de un bucle.
+case: Palabra clave utilizada dentro de una declaración switch para definir un caso específico.
+catch: Palabra clave utilizada para manejar excepciones lanzadas dentro de un bloque de código try.
+class: Palabra clave utilizada para definir una clase.
+const: Palabra clave utilizada para definir una variable constante.
+continue: Palabra clave que se utiliza para continuar con la siguiente iteración de un bucle.
+covariant: Palabra clave que se utiliza para indicar que un parámetro de una función puede ser reemplazado por un subtipo en una subclase.
+default: Palabra clave que se utiliza dentro de una declaración switch para definir un caso predeterminado.
+deferred: Palabra clave que se utiliza para cargar una biblioteca de forma perezosa.
+do: Palabra clave utilizada para iniciar un bucle do-while.
+dynamic: Palabra clave que se utiliza para declarar una variable cuyo tipo se determina en tiempo de ejecución.
+else: Palabra clave que se utiliza para definir una rama else en una declaración if.
+enum: Palabra clave utilizada para definir una enumeración.
+export: Palabra clave utilizada para exportar un miembro de una biblioteca.
+extends: Palabra clave utilizada para crear una subclase que hereda los miembros de una superclase.
+extension: Palabra clave utilizada para definir una extensión de una clase.
+external: Palabra clave utilizada para declarar que una función o variable está definida en otro lugar.
+factory: Palabra clave utilizada para crear objetos de una clase de forma personalizada.
+false: Palabra clave que representa el valor booleano false.
+final: Palabra clave utilizada para declarar una variable que no puede cambiar su valor después de inicializarse.
+finally: Palabra clave utilizada para ejecutar un bloque de código después de que se complete un bloque try-catch.
+for: Palabra clave utilizada para iniciar un bucle for.
+Function: Tipo especial de objeto que representa una función en Dart.
+get: Palabra clave utilizada para definir un método de acceso a una propiedad de clase.
+hide: Palabra clave utilizada para ocultar un miembro de una biblioteca en una directiva de importación.
+if: Palabra clave utilizada para iniciar una declaración condicional.
+implements: Palabra clave utilizada para indicar que una clase implementa una interfaz.
+import: Palabra clave utilizada para importar miembros de otra biblioteca.
+in: Palabra clave utilizada en un bucle for-in para iterar sobre una colección.
+interface: Palabra clave utilizada para declarar una interfaz (no utilizado en Dart 2.x).
+is: Palabra clave utilizada para verificar si una instancia es de un tipo en particular.
+late: Palabra clave utilizada para indicar que una variable será inicializada en algún momento después de la declaración.
+library: Palabra clave utilizada para declarar una biblioteca.
+mixin: Palabra clave utilizada para definir una mixin, que es una clase que se utiliza para agregar funcionalidad a otras clases sin crear una relación de herencia.
+native: Palabra clave que se utiliza en la plataforma web para declarar que una función está escrita en JavaScript.
+new: Palabra clave utilizada para crear una nueva instancia de una clase.
+null: Palabra clave que representa la ausencia de un valor.
+of: Palabra clave utilizada en un bucle for-in para especificar la variable que se utilizará para la iteración.
+on: Palabra clave utilizada en una declaración catch para especificar el tipo de excepción que se capturará.
+operator: Palabra clave utilizada para sobrecargar un operador.
+out: Palabra clave utilizada en la definición de una función genérica para indicar un tipo de parámetro covariante.
+part: Palabra clave utilizada para indicar que un archivo forma parte de una biblioteca dividida en partes.
+required: Palabra clave utilizada para indicar que un parámetro es obligatorio.
+rethrow: Palabra clave utilizada dentro de un bloque catch para volver a lanzar la excepción capturada.
+return: Palabra clave utilizada para salir de una función y devolver un valor.
+set: Palabra clave utilizada para definir un método de configuración para una propiedad de clase.
+show: Palabra clave utilizada para mostrar solo ciertos miembros de una biblioteca en una directiva de importación.
+static: Palabra clave utilizada para declarar una variable o método como perteneciente a una clase en lugar de a una instancia de clase.
+super: Palabra clave utilizada para acceder a los miembros de la clase padre.
+switch: Palabra clave utilizada para declarar una estructura de control de flujo switch.
+sync: Palabra clave utilizada para indicar que una función devuelve un objeto Stream.
+sync*: Palabra clave utilizada para indicar que una función devuelve un objeto StreamIterable.
+this: Palabra clave utilizada para referirse a la instancia actual de una clase.
+throw: Palabra clave utilizada para lanzar una excepción.
+true: Palabra clave que representa el valor booleano true.
+try: Palabra clave utilizada para declarar un bloque de código try-catch.
+typedef: Palabra clave utilizada para declarar un tipo de función.
+var: Palabra clave utilizada para declarar una variable con un tipo implícito.
+void: Palabra clave utilizada para indicar que una función no devuelve ningún valor.
+while: Palabra clave utilizada para declarar un bucle while.
+with: Palabra clave utilizada para declarar una clase que mezcla en una o más clases o mixins.
+yield: Palabra clave utilizada en una función generadora para devolver un valor de la secuencia generada.
+yield*: Palabra clave utilizada en una función generadora para devolver los valores de otra secuencia generada.
