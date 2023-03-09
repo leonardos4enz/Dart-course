@@ -41,17 +41,34 @@ void main(List<String> args) {
   villanos.add('Duende');
   villanos.add('Duende');
   villanos.add('Duende');
-  print(villanos);
+  // print(villanos);
   // print(villanos2);
 
   var villanosSet =
       villanos.toSet().toList(); // toSet() elimina duplicados y después los regresa a una lista con toList()
-  print(villanosSet);
+  // print(villanosSet);
 
   // ====================================================================================================================== Sets
   Set<String> heroes = {'Iron-Man', 'Spider-Man'};
   heroes.add('Thor');
   heroes.add('Thor');
   heroes.add('Thor'); //Los Sets NO tienen duplicados
-  print(heroes);
+  // print(heroes);
+
+  // ====================================================================================================================== Maps
+  Map<String, dynamic> ironman = {
+    'nombre': 'Tony Stark',
+    'poder': 'inteligencia y dinero',
+    'nivel': 10,
+  };
+  print("Mi nombre es ${ironman['nombre']}, poseo ${ironman['poder']}, soy nivel ${ironman['nivel']}.");
+  // print(ironman);
+  Map<String, dynamic> capitan = new Map();
+  capitan.addAll({
+    'nombre': 'Steve',
+    'poder': 'super fuerza',
+    'nivel': 9,
+  });
+  capitan.addAll(ironman);
+  print(capitan);
 }
