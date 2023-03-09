@@ -10,5 +10,9 @@ void main() {
   // personasConst = const['Juan', 'Pedro', 'Fernando']; (También se puede declarar const así)
   personasFinal.add('Leonardo');
   // personasConst.add('Leonardo');
-  print(personasFinal);
+  // print(personasFinal);
+
+  late final double x; //(Se va a inicializar después)
+  x = 10.25;
+  print(x);
 }
