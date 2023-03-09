@@ -36,8 +36,22 @@ void main(List<String> args) {
   // print(isNotActive);
 
   // ====================================================================================================================== Lists
-  var villanos = ['Ultron', 'Thanos', 2]; //Lista de Objetos
-  List<String> villanos2 = ['Ultron', 'Thanos']; //Lista de Strings
-  // print(villanos);
+  var villanos1 = ['Ultron', 'Thanos', 2]; //Lista de Objetos
+  List<String> villanos = ['Ultron', 'Thanos']; //Lista de Strings
+  villanos.add('Duende');
+  villanos.add('Duende');
+  villanos.add('Duende');
+  print(villanos);
   // print(villanos2);
+
+  var villanosSet =
+      villanos.toSet().toList(); // toSet() elimina duplicados y después los regresa a una lista con toList()
+  print(villanosSet);
+
+  // ====================================================================================================================== Sets
+  Set<String> heroes = {'Iron-Man', 'Spider-Man'};
+  heroes.add('Thor');
+  heroes.add('Thor');
+  heroes.add('Thor'); //Los Sets NO tienen duplicados
+  print(heroes);
 }
