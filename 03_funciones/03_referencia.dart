@@ -21,3 +21,10 @@ Map<String, String> capitalizarMapa(Map<String, String> mapa) {
   mapa['nombre'] = mapa['nombre']?.toUpperCase() ?? 'No hay nombre';
   return mapa;
 }
+/**
+ * 
+ * Hecho por: @Leonardos4enz
+ * Github https://github.com/leonardos4enz
+ * Twitter https://twitter.com/leonardos4enz
+ * 
+ */

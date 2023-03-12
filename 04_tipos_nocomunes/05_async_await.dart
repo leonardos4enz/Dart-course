@@ -13,3 +13,10 @@ Future<String> leerArchivo(String path) async {
   File file = new File(Directory.current.path + '\\04_tipos_nocomunes\\assets\\personas.txt');
   return file.readAsString();
 }
+/**
+ * 
+ * Hecho por: @Leonardos4enz
+ * Github https://github.com/leonardos4enz
+ * Twitter https://twitter.com/leonardos4enz
+ * 
+ */

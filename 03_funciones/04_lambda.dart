@@ -17,3 +17,10 @@ int sumar(int x, int y) {
 }
 
 int sumarFlecha(int x, int y) => x + y;
+/**
+ * 
+ * Hecho por: @Leonardos4enz
+ * Github https://github.com/leonardos4enz
+ * Twitter https://twitter.com/leonardos4enz
+ * 
+ */

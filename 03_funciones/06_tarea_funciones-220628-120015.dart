@@ -42,3 +42,10 @@ void imprimirUsuario(int usuario, double salario) {
 
   imprimir(usuario2.toString());
 }
+/**
+ * 
+ * Hecho por: @Leonardos4enz
+ * Github https://github.com/leonardos4enz
+ * Twitter https://twitter.com/leonardos4enz
+ * 
+ */

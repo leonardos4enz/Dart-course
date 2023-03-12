@@ -1,9 +1,17 @@
 void main(List<String> args) {
+  //Variable que se ajusta al valor (var):
   var a = 10;
+
+  //variable dinámica (dynamic):
   dynamic b = 5;
+
+  //variable decimal:
   double decimal = 3.14, $b = 40;
+
+  //variable entero:
   int _a = 30, entero = 10;
-  // print(_a + $b);
+  print(_a + $b);
+
   /*
 
   El null safety esta al tanto de no usar variables no definidas
@@ -72,3 +80,11 @@ void main(List<String> args) {
   capitan.addAll(ironman);
   print(capitan);
 }
+
+/*
+ * 
+ * Hecho por: @Leonardos4enz
+ * Github https://github.com/leonardos4enz
+ * Twitter https://twitter.com/leonardos4enz
+ * 
+ */

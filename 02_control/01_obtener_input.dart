@@ -10,3 +10,10 @@ main() {
   stdout.writeln();
   stdout.writeln('Te llamas $nombre');
 }
+/**
+ * 
+ * Hecho por: @Leonardos4enz
+ * Github https://github.com/leonardos4enz
+ * Twitter https://twitter.com/leonardos4enz
+ * 
+ */

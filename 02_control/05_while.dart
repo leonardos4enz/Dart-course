@@ -7,3 +7,10 @@ void main(List<String> args) {
     continuar = stdin.readLineSync()!;
   }
 }
+/**
+ * 
+ * Hecho por: @Leonardos4enz
+ * Github https://github.com/leonardos4enz
+ * Twitter https://twitter.com/leonardos4enz
+ * 
+ */

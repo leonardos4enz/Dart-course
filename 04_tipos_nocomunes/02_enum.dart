@@ -18,3 +18,10 @@ void main(List<String> args) {
 }
 
 enum Audio { bajo, medio, alto }
+/**
+ * 
+ * Hecho por: @Leonardos4enz
+ * Github https://github.com/leonardos4enz
+ * Twitter https://twitter.com/leonardos4enz
+ * 
+ */
