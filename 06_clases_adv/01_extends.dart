@@ -21,3 +21,6 @@ void main(List<String> args) {
 
   tesla.encender();
 }
+
+
+//Extends le da todos los metodos y propiedades a otra clase
