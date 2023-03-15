@@ -16,14 +16,14 @@ void main() {
   // print(persona['edad']);
 
   // Persona persona = new Persona();
-  final persona = new Persona();
+  final persona = new Persona(edad: 21, nombre: 'Leonardo');
 
-  persona
-    ..nombre = 'Leonardo'
-    ..edad = 33;
+  // persona
+  //   ..nombre = 'Leonardo'
+  //   ..edad = 33;
   // .._bio = 'Nacio en Monterrey';
 
-  persona.bio = 'Cambié el valor';
+  // persona.bio = 'Cambié el valor';
 
-  print(persona.bio);
+  print(persona);
 }

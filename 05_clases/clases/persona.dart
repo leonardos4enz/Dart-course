@@ -18,6 +18,16 @@ class Persona {
   set bio(String texto) => _bio = texto;
 
   // Constructores ====================================================================================================
+  // Persona(int edad, String nombre) {
+  //   print('Constructor');
+
+  //   this.nombre = nombre;
+  //   this.edad = edad;
+
+  //   _bio = 'Hola desde el constructor';
+  // }
+
+  Persona({this.edad = 0, this.nombre = 'Sin nombre'});
 
   // métodos ==========================================================================================================
   @override //Esto sobrescribe el método toString.
