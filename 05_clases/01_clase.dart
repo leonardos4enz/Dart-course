@@ -1,3 +1,5 @@
+import 'clases/persona.dart';
+
 void main() {
   // final persona = {
   //   'nombre': 'Fernando',
@@ -16,26 +18,10 @@ void main() {
   // Persona persona = new Persona();
   final persona = new Persona();
 
-  persona.nombre = 'Leonardo';
-  persona.edad = 31;
-  persona.bio = 'Nació en Monterrey';
+  persona
+    ..nombre = 'Leonardo'
+    ..edad = 33
+    ..bio = 'Nacio en Monterrey';
 
   print(persona);
-}
-
-class Persona {
-  // Campos o propiedades
-  String? nombre;
-  int? edad;
-  String? bio;
-
-  // Get y sets
-
-  // Constructores
-
-  // métodos
-  @override //Esto sobrescribe el método toString.
-  String toString() {
-    return '$nombre $edad $bio';
-  }
 }
