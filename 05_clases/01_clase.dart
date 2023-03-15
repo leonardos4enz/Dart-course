@@ -20,8 +20,8 @@ void main() {
 
   persona
     ..nombre = 'Leonardo'
-    ..edad = 33
-    ..bio = 'Nacio en Monterrey';
+    ..edad = 33;
+  // .._bio = 'Nacio en Monterrey';
 
   print(persona);
 }
