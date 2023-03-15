@@ -23,5 +23,7 @@ void main() {
     ..edad = 33;
   // .._bio = 'Nacio en Monterrey';
 
-  print(persona);
+  persona.bio = 'Cambié el valor';
+
+  print(persona.bio);
 }
