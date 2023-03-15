@@ -18,6 +18,8 @@ void main() {
   // Persona persona = new Persona();
   final persona = new Persona(edad: 21, nombre: 'Leonardo');
 
+  final persona2 = new Persona.persona33('Alfredo');
+
   // persona
   //   ..nombre = 'Leonardo'
   //   ..edad = 33;
@@ -25,5 +27,5 @@ void main() {
 
   // persona.bio = 'Cambié el valor';
 
-  print(persona);
+  print(persona2);
 }
