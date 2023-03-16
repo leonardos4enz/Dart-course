@@ -6,7 +6,15 @@ mixin Logger {
   }
 }
 
-abstract class Astro with Logger {
+mixin Logger2 {
+  void imprimir2(String texto) {
+    final hoy = DateTime.now();
+
+    print("$hoy :::: $texto");
+  }
+}
+
+abstract class Astro with Logger, Logger2 {
   String? nombre;
 
   Astro() {
