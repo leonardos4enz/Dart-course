@@ -1,11 +1,12 @@
 void main(List<String> args) {
-  obtenerUsuario('100', (Map persona) {
-    print(persona);
-  });
+  obtenerUsuario('100', (Map persona) => print(persona));
 }
 
 void obtenerUsuario(String id, Function callback) {
-  Map usuario = {'id': id, 'nombre': 'Leonardo Sáenz'};
+  Map usuario = {
+    'id': id,
+    'nombre': 'Leonardo Sáenz',
+  };
 
   callback(usuario);
 }
@@ -16,3 +17,5 @@ void obtenerUsuario(String id, Function callback) {
  * Twitter https://twitter.com/leonardos4enz
  * 
  */
+
+//Un callback es una función que se llama dentro de otra función.
