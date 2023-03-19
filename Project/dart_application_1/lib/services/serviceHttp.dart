@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
 
-import 'clases/reqres_respuesta.dart';
+import '../clases/reqres_respuesta.dart';
 
 void getReqRes_service() {
   final url = Uri.parse("https://reqres.in/api/users?page=2");
